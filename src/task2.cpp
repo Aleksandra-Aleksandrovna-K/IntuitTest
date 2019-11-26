@@ -5,7 +5,7 @@ bool checkPrime(unsigned int value)
     {
         return true;
     }
-    for (i = 2; i <= (sqrt(abs(value))); i++)//проверяем остаток до корня из числа
+    for (i = 2; i <= (sqrt(abs(value)))+1; i++)//проверяем остаток до корня из числа
     {
         if (value%i==0)
         {
